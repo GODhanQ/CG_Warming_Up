@@ -129,6 +129,8 @@ int main()
 		cout << "\n\n문자 한개만 입력하세요.\nCommand : ";
 		if (!(cin >> Command)) {
 			cout << "잘못된 입력입니다. 다시 입력하세요.\n";
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			continue;
 		}
 		int Flag = Input_Command(Command);

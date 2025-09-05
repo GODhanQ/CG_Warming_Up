@@ -1,7 +1,8 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 중간 디렉터리(x64\Release\)에 다른 프로젝트(Day_01.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 중간 디렉터리(x64\Release\)에 다른 프로젝트(Day_01.vcxproj, Day_01_N_1.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   CG Warming Up_01.cpp
-  Previous IPDB not found, fall back to full compilation.
   코드를 생성하고 있습니다.
-  All 115 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  65 of 115 functions (56.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
-  Day_01.vcxproj -> C:\Users\hgmin\source\repos\GODhanQ\CG_Warming_Up\Day_01\x64\Release\Day_01_N_1.exe
+  Day_01.vcxproj -> C:\Users\hgmin\source\repos\GODhanQ\CG_Warming_Up\Day_01\x64\Release\N_01.exe

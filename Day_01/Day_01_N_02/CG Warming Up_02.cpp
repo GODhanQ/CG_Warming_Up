@@ -3,8 +3,9 @@
 #include <string>
 #include <stdlib.h>
 #include <vector>
-#include <windows.h>
 #include <algorithm>
+#define NOMINMAX
+#include <windows.h>
 using namespace std;
 
 int Input_Command(char a);
@@ -38,6 +39,8 @@ int main()
 		cout << "\n\nInput Command : ";
 		if (!(cin >> Command)) {
 			cout << "잘못된 입력입니다. 다시 입력하세요.\n";
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			continue;
 		}
 		int Command_Flag = Input_Command(Command);
